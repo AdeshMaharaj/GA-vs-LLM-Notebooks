@@ -14,15 +14,15 @@ The pipeline has been applied to **English, French, and Afrikaans**, enabling cr
 ---
 
 ## Notebooks
-- **`English_annotated.ipynb`**  
+- **`English.ipynb`**  
   Heavily annotated with Markdown explanations of the methodology, GA setup, evaluation, and results.  
   Serves as the **reference notebook**.
 
-- **`French_with_header.ipynb`**  
+- **`French.ipynb`**  
   Applies the same pipeline to the **French Tatoeba corpus**.  
   Includes a clear header introduction with light commentary (methodology identical to English).
 
-- **`Afrikaans_with_header.ipynb`**  
+- **`Afrikaans.ipynb`**  
   Applies the same pipeline to the **Afrikaans Tatoeba corpus (100k sentences)**.  
   Includes a clear header introduction with light commentary.
 
