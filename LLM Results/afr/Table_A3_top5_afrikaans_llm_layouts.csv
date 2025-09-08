@@ -1,0 +1,6 @@
+rank,model,prompt_type,temperature,fitness,top_number_row,top_row,home_row,bottom_row
+1,gpt-4o,feedback,0.4,-1.6748,1234567890?z,"""cyfgltuj'éë",hkroesanidv,"!:pbmw.,-ê"
+2,gpt-4o,feedback,0.0,-1.6764,1234567890?z,"c""yfgltuj'éë",hkroesanidv,"!-pbmw.,:ê"
+3,gpt-4o,feedback,0.4,-1.6764,1234567890?z,"c""yfgltuj'éë",hkroesanidv,"!-pbmw.,:ê"
+4,gpt-4o,feedback,0.4,-1.6905,1234567890?z,"""cyfgltuj'éë",hkroesanidv,"!:pbmw.,-ê"
+5,gpt-4o,feedback,0.4,-1.6905,1234567890?z,"""cyfgltuj'éë",hkroesanidv,"!:pbmw.,-ê"
