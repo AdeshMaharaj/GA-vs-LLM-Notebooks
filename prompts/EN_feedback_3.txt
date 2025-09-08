@@ -1,0 +1,9 @@
+"name": "GA_Third",
+"heatmap:": "Third best layout heatmap",
+"layout": {
+    "top_number_row": "1234567890][",
+    "top_row":         "/jk,gndbv'x=",
+    "home_row":        "wcsitoaerlu",
+    "bottom_row":      "-;f.yhmpzq"
+},
+"suggestions": "1. Improve access to the apostrophe by moving it from the top-row ring-finger position to an easier reach, such as the bottom row near the pinky. 2. Replace 'C' (currently on the home row under a weaker finger) with a higher-frequency letter from a harder-to-reach position, improving efficiency. 3. Relocate 'Y' from the bottom-row ring finger to a middle or index finger position, and replace it with a lower-frequency letter such as 'Q' or 'Z'."

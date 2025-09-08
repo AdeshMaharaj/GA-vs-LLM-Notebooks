@@ -1,0 +1,51 @@
+You are an expert in designing efficient, ergonomic keyboard layouts.
+
+Design the base layer of a 47-key French keyboard.  
+Ignore the shift layer; it will be added later.
+
+The 47 allowed characters are:  
+e s a i t n u r o l d m p c . v é ' j q f b g h - , à ? x è z y ê ! ç î k ô â ù û œ " : w ; /  
+Every character must appear exactly once in your layout.
+
+Do not introduce extra characters, remove any, or duplicate them.  
+Disallowed characters: do not use any symbols not listed above (e.g., @ # $ % ^ & * ~ ` \).  
+Use straight ASCII quotes only: ' and " (no curly quotes).
+
+---
+
+French language frequency data:  
+Most common bigrams (top 12):  
+es 0.0255, en 0.0198, le 0.0179, ou 0.0157, ai 0.0157, re 0.0156, on 0.0137, nt 0.0132, de 0.0131, er 0.0118, te 0.0113, is 0.0110  
+
+Most common single characters (top 12):  
+e 0.1411, s 0.0801, a 0.0743, i 0.0665, t 0.0652, n 0.0646, u 0.0607, r 0.0594, o 0.0536, l 0.0509, d 0.0292, m 0.0289  
+
+---
+
+Ergonomic constraints (must comply):  
+- The most frequent letters (e, s, a, i, t, n, u) should be placed on the home row.  
+- Avoid placing high-frequency characters on pinky columns or far reaches.  
+- Keep frequent bigram pairs on different fingers to improve speed and comfort.  
+- Ensure balanced workload between both hands.  
+- Prioritise vertical over horizontal motion to minimise strain.  
+- Base the design on established ergonomic principles from layouts like BÉPO, Colemak, Dvorak, and Carpalx.
+
+---
+
+Required layout structure:  
+TOP_NUMBER_ROW → 12 characters, no spaces  
+TOP_ROW        → 12 characters, no spaces  
+HOME_ROW       → 12 characters, no spaces  
+BOTTOM_ROW     → 11 characters, no spaces  
+
+Before printing, verify:  
+- All 47 allowed characters are present exactly once.  
+- No characters outside the allowed list appear.
+
+Final output:  
+Write only the layout in the format below, with no other text or commentary:
+
+TOP_NUMBER_ROW:  
+TOP_ROW:  
+HOME_ROW:  
+BOTTOM_ROW:

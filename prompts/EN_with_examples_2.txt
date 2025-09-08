@@ -1,0 +1,40 @@
+You are an expert in ergonomic keyboard layout design.
+
+We are creating the **base layer only** of a 45-key English keyboard.  
+Ignore the shift layer.
+
+**Constraints:**
+- Rows:
+  TOP_NUMBER_ROW → 1234567890??  (first 10 fixed, 2 flexible)
+  TOP_ROW        → 12 chars
+  HOME_ROW       → 11 chars
+  BOTTOM_ROW     → 10 chars
+- Allowed characters: qwertyuiopasdfghjklzxcvbnm,./-=;'[]
+- Each char appears exactly once.
+- No spaces or extra symbols.
+
+**Design Goals:**
+- Keep the most common letters (e, t, a, o, i, n, s, r, h) close to the home position.
+- Avoid placing more than 2 vowels on the same hand.
+- Keep punctuation near the pinky or index columns for easy reach.
+- Minimize same-finger bigrams.
+- Aim for symmetrical hand movement.
+
+---
+**Valid Examples:**
+• WORKMAN:
+TOP_NUMBER_ROW → 1234567890-=  
+TOP_ROW        → qdrwbjfup;[]  
+HOME_ROW       → ashtgyneoi'  
+BOTTOM_ROW     → zxmcvkl,./  
+
+• DVORAK:
+TOP_NUMBER_ROW → 1234567890[]  
+TOP_ROW        → ',.pyfgcrl/=  
+HOME_ROW       → aoeuidhtns-  
+BOTTOM_ROW     → ;qjkxbmwvz  
+
+---
+
+Now generate a **unique 45-key English layout** meeting these rules.  
+**Return only the layout.**

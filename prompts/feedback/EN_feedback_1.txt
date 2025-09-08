@@ -1,0 +1,27 @@
+You are an expert in ergonomic keyboard layout design.
+
+We are revising an existing 45-key *base layer only* English layout using the feedback below and an attached heatmap.
+Keep the constraints and return ONLY a strict JSON object with these keys:
+- top_number_row (12 chars)
+- top_row (12 chars)
+- home_row (11 chars)
+- bottom_row (10 chars)
+
+Constraints:
+- The first 10 characters must be exactly '1234567890' at the start of top_number_row (positions 1–10).
+- Use each of these characters exactly once overall (no repeats): qwertyuiopasdfghjklzxcvbnm,./-=;'[] plus the 10 digits.
+- No spaces or unlisted symbols.
+
+Ergonomic goals:
+- Put frequent letters (e, t, a, o, i, n, s, r, h) on/near home row and comfortable columns.
+- Avoid frequent bigrams ('th','he','in','er','an','re','on') on the same finger.
+- Balance effort between hands; prefer vertical over lateral motion; reduce pinky strain.
+
+Previous layout (JSON):
+{"top_number_row": "1234567890][", "top_row": "/jk,gndbvzx=", "home_row": "whsitoaerlu", "bottom_row": "-;f.ycmp'q"}
+
+Specific improvement suggestions:
+Reduce Overuse of the Right Pinky (especially the “e” key on = position)Improve Left-Hand Load Balancing (Move Common Keys off Weak Fingers) Reduce Awkward Jumps Between High-Frequency Keys
+
+Return JSON ONLY (no comments, no prose), exactly:
+{{"top_number_row":"...","top_row":"...","home_row":"...","bottom_row":"..."}}

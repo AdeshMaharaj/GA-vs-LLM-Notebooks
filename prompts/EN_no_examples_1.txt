@@ -1,0 +1,39 @@
+You are an expert in ergonomic keyboard layout design.
+
+We are designing the **base layer only** of a *45-key* ergonomic keyboard for typing in English.
+Ignore the shift layer for now; it will be added in a future step.
+
+
+The **first 10 characters (1234567890)** are fixed and **must appear in that order**. The remaining 35 keys (two from the number row and 33 letter/punctuation keys) are to be filled in by you.
+
+The two characters following the numbers in the top row (positions 11 and 12) — - and = in QWERTY — may be replaced or rearranged. You have full freedom over the remaining 35 positions.
+
+Allowed characters:  
+qwertyuiopasdfghjklzxcvbnm,./-=;'[]
+
+Do not use spaces, backticks, tildes, or symbols like @, #, !, etc.
+
+---
+
+### Ergonomic Guidelines:
+- Place the most frequent letters (e.g., e, t, a, o, i, n, s) on the home row.
+- Avoid placing frequently used characters on the pinky fingers or in hard-to-reach corners.
+- Avoid assigning frequently paired letters (like "th", "er", or "in") to the same finger.
+- Distribute typing effort between both hands.
+- Minimize lateral (side-to-side) movement; prefer vertical transitions.
+- Use ergonomic conventions from known designs like Colemak, Dvorak, or Carpalx as inspiration.
+
+The full layout must include exactly:
+
+TOP_NUMBER_ROW →  0-9 and 2 extra characters (no spaces) 
+TOP_ROW        →  12 characters (no spaces) 
+HOME_ROW       →  11 characters (no spaces) 
+BOTTOM_ROW     →  10 characters (no spaces) 
+
+Return only the layout (no explanation or commentary). Ensure that all *45 characters* in the layout are unique — no repeating letters between rows, place the characters after the arrows.
+
+
+Now generate a **new 45-key English base layer layout** in the same format.  
+Your goal is to **maximize typing comfort, balance, and efficiency**
+
+Output:

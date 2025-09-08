@@ -1,0 +1,42 @@
+You are an expert in designing efficient, ergonomic French keyboard layouts.
+
+Produce the base layer for a 47-key layout (ignore the shift layer).
+
+Allowed set (47 total). Your four rows must be a **permutation of this set** — each character used once, none omitted, none added:
+
+e s a i t n u r o l d m p c . v é ' j q f b g h - , à ? x è z y ê ! ç î k ô â ù û œ " : w ; /
+
+Hard constraints:
+- No duplicates and no characters outside the allowed set.
+- Use only ASCII ' and " (no curly quotes).
+- The following characters MUST appear exactly once each, never more: e, i, o, u, é, è, ê, à, î, û, ô, œ.
+- All four rows combined must use all 47 characters exactly once.
+
+Ergonomic rules:
+- Prioritise e, s, a, i, t, n, u on the home row.
+- Avoid placing frequent letters on pinky extremes.
+- Keep common bigram partners on different fingers.
+- Balance typing effort between left/right hands and minimise lateral motion.
+
+FORMAT EXAMPLE (placeholders only):
+TOP_NUMBER_ROW → ••••••••••••
+TOP_ROW        → ••••••••••••
+HOME_ROW       → ••••••••••••
+BOTTOM_ROW     → •••••••••••
+
+Row requirements:
+TOP_NUMBER_ROW → 12 characters
+TOP_ROW        → 12 characters
+HOME_ROW       → 12 characters
+BOTTOM_ROW     → 11 characters
+(all rows contain characters with no spaces)
+
+Silent validation before printing (do not show work):
+1) Concatenate all four rows; after sorting, it must exactly match the sorted allowed set above.
+2) Ensure each of the listed vowel/accent characters appears exactly once.
+
+Return only:
+TOP_NUMBER_ROW:
+TOP_ROW:
+HOME_ROW:
+BOTTOM_ROW:

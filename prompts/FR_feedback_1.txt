@@ -1,0 +1,22 @@
+You are given a CURRENT layout and a heatmap.
+
+Goal: produce an IMPROVED layout for French using the SAME 47-character set (a permutation), but
+it MUST differ from the CURRENT layout by at least 6 positions across the 47 keys.
+Do not repeat any of the four CURRENT row strings verbatim.
+
+"current layout": {
+    'top_number_row': 'ê"w\'œû,g;xçî',
+    'top_row': 	      '!hbqiucpfà-ô',
+    'home_row':       '.ltsenaromvj',
+    'bottom_row':     ':ykzéd?è/âù'
+},
+"suggestions": "
+Take into consideration the heatmap and below to improve this layout
+Finger travel distance – how far each finger moves for each keystroke.
+Row penalties – home row = low penalty, top/bottom row = higher penalty.
+Same-hand penalties – consecutive keystrokes on the same hand slow typing and increase fatigue.
+Same-finger penalties – two consecutive letters typed with the same finger are awkward and slow.
+Hand balance – aim for equal load between hands; uneven distribution adds strain. "
+
+Return ONLY a JSON object with keys: top_number_row, top_row, home_row, bottom_row.
+No prose or markdown. Exact lengths: 12, 12, 12, 11.

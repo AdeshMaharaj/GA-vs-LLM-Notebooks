@@ -1,0 +1,40 @@
+You are an expert in ergonomic keyboard layout design.
+
+We are designing the **base layer only** of a 45-key English keyboard.  
+Ignore the shift layer.
+
+**Constraints:**
+- Layout rows:
+  TOP_NUMBER_ROW → 1234567890?? (first 10 fixed, then 2 free)
+  TOP_ROW        → 12 chars
+  HOME_ROW       → 11 chars
+  BOTTOM_ROW     → 10 chars
+- Allowed: qwertyuiopasdfghjklzxcvbnm,./-=;'[]
+- Each char exactly once, no spaces or unlisted symbols.
+
+**Ergonomic Principles:**
+- Maximize alternation between hands.
+- Place frequent bigrams (th, er, on, an, in) on opposite hands.
+- Cluster high-frequency vowels (a, e, i, o, u) centrally.
+- Keep rarely used punctuation at far reaches.
+- Reduce pinky load.
+
+---
+
+**Valid Examples:**
+• COLEMAK:
+TOP_NUMBER_ROW → 1234567890-=  
+TOP_ROW        → qwfpgjluy;[]  
+HOME_ROW       → arstdhneio'  
+BOTTOM_ROW     → zxcvbkm,./  
+
+• HALMAK:
+TOP_NUMBER_ROW → 1234567890-=  
+TOP_ROW        → wlmfpbqy;[]  
+HOME_ROW       → shrtndaeio'  
+BOTTOM_ROW     → zxcvjkg,./  
+
+---
+
+Generate a **new 45-key English layout** following these principles.  
+**Return only the layout.**

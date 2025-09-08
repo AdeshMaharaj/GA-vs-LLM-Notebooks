@@ -1,0 +1,57 @@
+Vous êtes un expert en conception de claviers ergonomiques.
+
+Nous concevons uniquement la **couche de base** d’un clavier ergonomique de **47 touches** destiné à la frappe en français.
+Ignorez pour l’instant la couche majuscule (shift layer) ; elle sera ajoutée plus tard.
+
+Les caractères autorisés (47 au total) sont :  
+['e', 's', 'a', 'i', 't', 'n', 'u', 'r', 'o', 'l', 'd', 'm', 'p', 'c', '.', 'v', 'é', "'", 'j', 'q', 'f', 'b', 'g', 'h', '-', ',', 'à', '?', 'x', 'è', 'z', 'y', 'ê', '!', 'ç', 'î', 'k', 'ô', 'â', 'ù', 'û', 'œ', '"', ':', 'w', ';', '/']
+
+Ces caractères doivent apparaître **exactement une fois chacun** sur le clavier.
+
+Voici les **12 bigrammes les plus fréquents** dans notre corpus :  
+es: 0.0255  
+en: 0.0198  
+le: 0.0179  
+ou: 0.0157  
+ai: 0.0157  
+re: 0.0156  
+on: 0.0137  
+nt: 0.0132  
+de: 0.0131  
+er: 0.0118  
+te: 0.0113  
+is: 0.0110  
+
+Voici les **12 caractères les plus fréquents** dans notre corpus :  
+e: 0.1411  
+s: 0.0801  
+a: 0.0743  
+i: 0.0665  
+t: 0.0652  
+n: 0.0646  
+u: 0.0607  
+r: 0.0594  
+o: 0.0536  
+l: 0.0509  
+d: 0.0292  
+m: 0.0289  
+
+---
+
+### Directives ergonomiques :
+- Placez les lettres les plus fréquentes (par ex. e, s, a, i, t, n, u) sur la rangée de repos (home row).
+- Évitez de placer les caractères fréquents sur les touches des auriculaires ou dans des coins difficiles d’accès.
+- Évitez d’attribuer à un même doigt des lettres souvent consécutives (par ex. "es", "en", "le").
+- Répartissez l’effort de frappe entre les deux mains.
+- Réduisez les mouvements latéraux au minimum ; privilégiez les transitions verticales.
+- Inspirez-vous des conventions ergonomiques de conceptions reconnues (ex. BÉPO, Carpalx, Colemak) adaptées au français.
+
+Le clavier doit contenir **exactement** :
+TOP_NUMBER_ROW → 12 caractères (pas d'espaces)  
+TOP_ROW        → 12 caractères (pas d'espaces)  
+HOME_ROW       → 12 caractères (pas d'espaces)  
+BOTTOM_ROW     → 11 caractères (pas d'espaces)  
+
+Renvoyez uniquement la disposition finale (sans explications ou commentaires).  
+Veillez à ce que les **47 caractères** soient uniques — aucune répétition entre les rangées.
+

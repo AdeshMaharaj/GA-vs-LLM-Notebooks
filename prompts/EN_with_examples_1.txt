@@ -1,0 +1,44 @@
+You are an expert in ergonomic keyboard layout design.
+
+We are designing the **base layer only** of a 45-key ergonomic keyboard for English.  
+Ignore the shift layer for now.
+
+**Constraints:**
+- Layout has 4 rows and The full layout must include exactly:
+
+TOP_NUMBER_ROW →  0-9 and 2 extra characters (no spaces) 
+TOP_ROW        →  12 characters (no spaces) 
+HOME_ROW       →  11 characters (no spaces) 
+BOTTOM_ROW     →  10 characters (no spaces) 
+
+- Allowed characters: qwertyuiopasdfghjklzxcvbnm,./-=;'[]
+- Each character must appear exactly once.
+- No spaces, backticks, tildes, or symbols like @, #, !.
+
+**Ergonomic Guidelines:**
+- Place most frequent letters (e, t, a, o, i, n, s) on the home row.
+- Avoid high-frequency letters on pinkies.
+- Avoid assigning common bigrams (th, er, in) to the same finger.
+- Balance effort between hands, minimize lateral motion.
+- Use ergonomic patterns from Colemak, Dvorak, or Carpalx for inspiration.
+
+---
+
+**Output Format and Valid Examples:**
+
+• DVORAK:
+TOP_NUMBER_ROW → 1234567890[]  
+TOP_ROW        → ',.pyfgcrl/=  
+HOME_ROW       → aoeuidhtns-  
+BOTTOM_ROW     → ;qjkxbmwvz  
+
+• COLEMAK:
+TOP_NUMBER_ROW → 1234567890-=  
+TOP_ROW        → qwfpgjluy;[]  
+HOME_ROW       → arstdhneio'  
+BOTTOM_ROW     → zxcvbkm,./  
+
+---
+
+Generate a **new 45-key English base layer layout** in the same format.  
+**Return only the layout.**

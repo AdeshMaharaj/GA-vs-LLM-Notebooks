@@ -1,0 +1,49 @@
+You are an expert in ergonomic keyboard layout optimisation.
+
+Task: design the base layer of a 47-key French keyboard. Do not include the shift layer.
+
+Use this exact set of 47 characters, each exactly once:
+e s a i t n u r o l d m p c . v é ' j q f b g h - , à ? x è z y ê ! ç î k ô â ù û œ " : w ; /
+
+Do not add, remove, or repeat any characters.
+Disallowed characters: do not use symbols not listed above (e.g., @ # $ % ^ & * ~ ` \).
+Use straight ASCII quotes only: ' and " (no curly quotes).
+
+Frequency hints:
+Top 12 bigrams: es 0.0255, en 0.0198, le 0.0179, ou 0.0157, ai 0.0157, re 0.0156, on 0.0137, nt 0.0132, de 0.0131, er 0.0118, te 0.0113, is 0.0110
+Top 12 single chars: e 0.1411, s 0.0801, a 0.0743, i 0.0665, t 0.0652, n 0.0646, u 0.0607, r 0.0594, o 0.0536, l 0.0509, d 0.0292, m 0.0289
+
+Ergonomic rules (must comply):
+1) Most frequent letters (e, s, a, i, t, n, u) on the home row.
+2) Avoid placing high-frequency letters on pinky columns or far reaches.
+3) Separate frequent pairs across different fingers (e.g., es, en, le).
+4) Balance workload between hands; reduce side-to-side travel.
+5) Use established ergonomic conventions (BÉPO, Colemak, Dvorak, Carpalx) as guidance.
+
+Examples for format only (character sets in examples may differ from the allowed set):
+• AZERTY:
+TOP_NUMBER_ROW → &é"'(-è_çà)=
+TOP_ROW        → azertyuiop[]
+HOME_ROW       → qsdfghjklmù*
+BOTTOM_ROW     → <wxcvbn,;:!
+• BÉPO:
+TOP_NUMBER_ROW → "<>()@+-/*=%
+TOP_ROW        → bépoè!vdljzw
+HOME_ROW       → auie,ctsrnmç
+BOTTOM_ROW     → êàyx.k'qghf
+
+Row lengths required:
+- TOP_NUMBER_ROW → 12 chars (no spaces)
+- TOP_ROW        → 12 chars (no spaces)
+- HOME_ROW       → 12 chars (no spaces)
+- BOTTOM_ROW     → 11 chars (no spaces)
+
+Self-check before output:
+- All 47 allowed characters appear exactly once.
+- No unlisted characters are used.
+
+Output (no commentary):
+TOP_NUMBER_ROW:
+TOP_ROW:
+HOME_ROW:
+BOTTOM_ROW:

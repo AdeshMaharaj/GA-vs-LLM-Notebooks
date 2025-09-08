@@ -1,0 +1,9 @@
+"name": "GA_Best",
+"heatmap:": "Best layout heatmap",
+"layout": {
+    "top_number_row": "1234567890][",
+    "top_row":         "/jk,gndbvzx=",
+    "home_row":        "whsitoaerlu",
+    "bottom_row":      "-;f.ycmp'q"
+},
+"suggestions": "1. Reduce right pinky strain by moving high-frequency keys, such as 'E', from the far-right (=) position to a stronger home-row finger. Reserve the outer pinky columns for low-frequency symbols. 2. Balance the left-hand workload by relocating common letters from weaker fingers, such as the left ring finger, to home-row index or middle finger positions. 3. Minimise vertical travel by grouping high-frequency vowels and consonants on the home row, reducing jumps between rows and improving typing flow."

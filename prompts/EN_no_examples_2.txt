@@ -1,0 +1,35 @@
+You are an expert in ergonomic keyboard layout optimization.
+
+Design the **base layer only** of a *45-key* ergonomic keyboard for **English typing**.  
+Ignore the shift layer; we will add it later.
+
+The **first 10 characters (1234567890)** are fixed in that order. After them, the number row has **two additional keys** that you may choose freely. The rest of the layout (top, home, and bottom rows) must contain the remaining allowed letters/punctuation exactly once each.
+
+Allowed characters:  
+qwertyuiopasdfghjklzxcvbnm,./-=;'[]
+
+Do not include spaces or extra symbols like @, #, !, ~, etc.
+
+---
+
+### Ergonomic objectives:
+- Home row should contain the highest-frequency letters. (e, t, a, o, i, n, s)
+- Avoid placing high-use letters on pinkies or awkward corners.
+- Prevent common bigrams (like "th", "er", "in") from being typed with the same finger.
+- Balance workload between hands and rows.
+- Prioritize vertical motion over lateral stretches.
+- Take inspiration from Colemak, Dvorak, and Carpalx optimizations.
+
+The layout format:
+
+TOP_NUMBER_ROW →  1234567890??  
+TOP_ROW        →  12 characters (no spaces)  
+HOME_ROW       →  11 characters (no spaces)  
+BOTTOM_ROW     →  10 characters (no spaces)  
+
+Return only the layout, no explanations or commentary.  
+All 45 characters must be unique.
+
+Generate a **new ergonomic English base layer** that meets these constraints and is highly efficient to type on.
+
+Output:

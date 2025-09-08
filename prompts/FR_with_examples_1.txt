@@ -1,0 +1,42 @@
+You are an expert in ergonomic keyboard layout design.
+
+Design the base layer only of a 47-key ergonomic keyboard for French. Ignore the shift layer.
+
+You must output a **permutation** of this exact 47-character string (use each character exactly once, no others):
+
+esa itn urol dmpc.v é'jqf bgh-, à?x èzy ê!ç îkô âù ûœ ":w;/
+(remove spaces in your head; the characters you must use, in order, are:)
+e s a i t n u r o l d m p c . v é ' j q f b g h - , à ? x è z y ê ! ç î k ô â ù û œ " : w ; /
+
+Hard constraints:
+- Your four rows combined must be a permutation of the above string (47 unique characters, used once each).
+- Do not add, remove, or duplicate characters.
+- Do not use curly quotes; only ASCII ' and ".
+- Do not copy characters from the example; it is placeholders only.
+
+Ergonomic rules (must follow):
+- Place e, s, a, i, t, n, u on the home row.
+- Keep frequent letters off pinkies and far corners.
+- Separate frequent bigram partners across different fingers.
+- Balance load between hands; prefer vertical over lateral motion.
+
+FORMAT EXAMPLE (placeholders only):
+TOP_NUMBER_ROW → XXXXXXXXXXXX
+TOP_ROW        → XXXXXXXXXXXX
+HOME_ROW       → XXXXXXXXXXXX
+BOTTOM_ROW     → XXXXXXXXXXX
+
+Row requirements:
+TOP_NUMBER_ROW → 12 characters (no spaces)
+TOP_ROW        → 12 characters (no spaces)
+HOME_ROW       → 12 characters (no spaces)
+BOTTOM_ROW     → 11 characters (no spaces)
+
+Silent self-check before printing (do not show your work):
+- When you concatenate the four rows, the sorted result must exactly match the sorted 47-character string above.
+
+Return only the layout in this exact format:
+TOP_NUMBER_ROW:
+TOP_ROW:
+HOME_ROW:
+BOTTOM_ROW:

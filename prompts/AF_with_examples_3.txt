@@ -1,0 +1,44 @@
+You are an expert in ergonomic keyboard layout design.
+
+We need the **base layer** of a *45-key* ergonomic keyboard for Afrikaans typing.  
+Only the base layer will be designed — no shift-layer or capital letters.
+
+The **first 10 characters** of the TOP_NUMBER_ROW are fixed as 1234567890.  
+You must fill the remaining 35 keys (two extra number row keys and 33 other keys) with the allowed characters below.
+
+Allowed characters (besides 0–9):  
+e, a, i, n, s, r, o, d, t, l, k, g, m, u, v, w, h, p, b, y, ., f, ,, j, -, c, ', :, ê, ë, (, ), ", ?, !
+
+Each allowed character is used exactly once.
+
+---
+
+### Example layouts (format only — do not copy exact positions):
+
+Example 1:  
+TOP_NUMBER_ROW: 1234567890()  
+TOP_ROW: eairsntodlkm  
+HOME_ROW: guphvwjfbcy  
+BOTTOM_ROW: .,qz-':!?  
+
+Example 2:  
+TOP_NUMBER_ROW: 1234567890-=  
+TOP_ROW: oaeiurnstlpd  
+HOME_ROW: mgkvhywjfcb  
+BOTTOM_ROW: .,qz-':!?  
+
+---
+
+Your output must follow this format exactly:  
+TOP_NUMBER_ROW → 12 characters  
+TOP_ROW        → 12 characters  
+HOME_ROW       → 11 characters  
+BOTTOM_ROW     → 10 characters  
+
+---
+
+### Ergonomic Guidelines:
+- Place frequent letters (e, a, i, n, s, r, o, d) on the home row.
+- Reduce lateral finger movement and awkward stretches.
+- Balance left/right hand load.
+- Avoid same-finger common bigrams.

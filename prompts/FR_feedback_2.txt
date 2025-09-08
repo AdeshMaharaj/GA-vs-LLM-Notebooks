@@ -1,0 +1,16 @@
+"name": "GA_FR_Second_Best",
+"heatmap:": "Second Best layout heatmap",
+"Goal:": "Follow suggestions, use the heatmap and improve current layout, it MUST differ from the CURRENT layout",
+"current layout": {
+    'top_number_row': 'ê"w\'œû,g;xçî',
+    'top_row': 	      '!hbqiucpfà-ô',
+    'home_row':       '.ltsenaromvj',
+    'bottom_row':     ':ykzéd?âè/ù'
+},
+"suggestions": "
+Take into consideration the heatmap and below to improve this layout
+Finger travel distance – how far each finger moves for each keystroke.
+Row penalties – home row = low penalty, top/bottom row = higher penalty.
+Same-hand penalties – consecutive keystrokes on the same hand slow typing and increase fatigue.
+Same-finger penalties – two consecutive letters typed with the same finger are awkward and slow.
+Hand balance – aim for equal load between hands; uneven distribution adds strain. "

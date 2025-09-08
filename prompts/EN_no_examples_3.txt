@@ -1,0 +1,29 @@
+You are tasked with designing an **ergonomic 45-key keyboard layout** for typing in English, focusing on comfort, speed, and even hand usage.
+
+**Rules:**
+- The **first 10 keys of the number row** are fixed as `1234567890` in that order.
+- The number row then has **two extra keys** you can choose freely.
+- All allowed characters must appear exactly once in the layout:  
+  qwertyuiopasdfghjklzxcvbnm,./-=;'[]
+- No spaces or other symbols allowed.
+- The layout must have exactly 45 keys arranged as:
+
+TOP_NUMBER_ROW →  1234567890??  
+TOP_ROW        →  12 characters  
+HOME_ROW       →  11 characters  
+BOTTOM_ROW     →  10 characters  
+
+---
+
+### Ergonomic guidelines:
+- Place the most common letters (e.g., e, t, a, o, i, n, s) on the home row.
+- Avoid overloading pinkies and awkward reaches.
+- Keep frequent letter pairs off the same finger.
+- Aim for a balanced split between hands.
+- Use minimal lateral motion — prefer vertical movement.
+
+Return only the four rows in the exact format shown.  
+No repeated characters between rows.  
+Do not include commentary — output the rows directly.
+
+Output:

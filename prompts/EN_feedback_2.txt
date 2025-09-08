@@ -1,0 +1,9 @@
+"name": "GA_Second",
+"heatmap:": "Second best layout heatmap",
+"layout": {
+    "top_number_row": "1234567890][",
+    "top_row":         "/jk,gndbvzx=",
+    "home_row":        "whsitoaerlu",
+    "bottom_row":      "-;fc.ymp'q"
+},
+"suggestions": "1. Optimise the placement of 'C' by moving it from the bottom-row middle finger position to a less-frequent symbol location, freeing up a prime position for a more common letter. 2. Relocate the comma from the top-row ring finger to a location closer to the middle columns or the bottom row, allowing smoother rolls and reduced reach. 3. Avoid wasting top-row space by replacing either 'B' or 'V' (both low-frequency letters) with a mid-frequency letter currently on the bottom row, such as 'C' or 'Y'."
